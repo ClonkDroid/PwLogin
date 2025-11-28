@@ -1,0 +1,11 @@
+name: pwLogin
+version: '1.0-SNAPSHOT'
+main: cx.dbg.pwLogin.PwLogin
+api-version: '1.21'
+commands:
+  login:
+    description: Login with your password
+    usage: /login <password>
+  register:
+    description: Register a new password
+    usage: /register <password> <password>
